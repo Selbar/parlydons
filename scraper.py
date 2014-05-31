@@ -16,8 +16,7 @@ base_url = 'http://www.publications.parliament.uk/pa/cm/cmregmem/' + record['dat
 page1 = 'part1contents.htm'
 #page2 = 'part2contents.htm'
 
-# define the order our columns are displayed in the datastore
-scraperwiki.metadata.save('data_columns', ['MP', 'Interest Catetgory', 'Interest Detail'])
+
 
 
 # scrape_table function: gets passed an individual page to scrape
