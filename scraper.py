@@ -10,8 +10,8 @@ from BeautifulSoup import BeautifulSoup
 
 record = {}
 #record['source'] = 'Members Register of Interests'
-record['date'] = '101206'
-#base_url = 'http://www.publications.parliament.uk/pa/cm/cmregmem/100927/'
+record['date'] = '140512'
+#base_url = 'http://www.publications.parliament.uk/pa/cm/cmregmem/140512/'
 base_url = 'http://www.publications.parliament.uk/pa/cm/cmregmem/' + record['date'] + '/'
 page1 = 'part1contents.htm'
 #page2 = 'part2contents.htm'
